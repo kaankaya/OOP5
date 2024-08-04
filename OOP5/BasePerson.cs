@@ -33,7 +33,7 @@ namespace OOP5
 
     public class Teacher : BasePerson
     {
-        public int Salary { get; set; }
+        public decimal Salary { get; set; }
         public override void DisplayInfo()
         {
             base.DisplayInfo();
